@@ -29,6 +29,10 @@ public class DirectoryWatchServiceImpl implements IDirectoryWatchService,Runnabl
     /**
      * A simple no argument constructor for creating a <code>DirectoryWatchServiceImpl</code>.
      *
+     *<directory>, // Directory to watch
+     *   E.g. "*.log"
+     *   E.g. "input-?.txt"
+     *   E.g. "config.ini"
      * @throws IOException If an I/O error occurs.
      */
     public DirectoryWatchServiceImpl() throws IOException {
